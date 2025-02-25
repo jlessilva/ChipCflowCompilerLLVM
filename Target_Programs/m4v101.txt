@@ -1,0 +1,17 @@
+constd i1,s2;
+constd n,s4;
+copyd s4,s6,s7;
+copyd s6,s9,s10;
+copyd s14,s16,s17;
+constd @,s21;
+constc $,s23;
+constd Z,s25;
+copyd s25,s27,s28;
+copyd s27,s30,s31;
+copyd s30,s33,s34;
+foricexx s2,s7,s37,s14,s23;
+dmerged s67,s21,s37,s53;
+dualstore s28,s31,s16,s10,s51,s52,s53,s54;
+dualsram0 s52,s54,s57,s51,s59,s60;
+dualload s33,s34,s17,s9,s65,s73,s67;
+dualsram1 s65,s69,s70,s71,s72,s73;

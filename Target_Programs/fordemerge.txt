@@ -1,0 +1,7 @@
+constd i1,s2;
+constd n1,s4;
+constd G,s14;
+constd xy,s20;
+constc B,s16;
+foricexx s2,s4,s19,i,s16;
+dmerged s20,s14,s19,r;

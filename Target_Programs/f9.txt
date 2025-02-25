@@ -1,0 +1,4 @@
+if(x<y)
+   if(i<j) z=i+j;
+   else z=x+y;
+     

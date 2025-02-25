@@ -1,0 +1,8 @@
+constd x,s2;
+constd y,s4;
+constd i,s8;
+constd j,s10;
+constd E,s14;
+decider s2,s4,s17;
+dmerged s6,s14,s17,z;
+mul s8,s10,s6;

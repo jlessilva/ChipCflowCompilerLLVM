@@ -1,0 +1,1 @@
+if(x<y)if(i<j)if(k<t)z=x+y+i+j+k+t;

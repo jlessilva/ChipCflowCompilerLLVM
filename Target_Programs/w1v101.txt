@@ -1,0 +1,5 @@
+constd k,s4;
+constd q,s6;
+constd x,s10;
+add s4,s6,s8;
+mul s10,s8,z;

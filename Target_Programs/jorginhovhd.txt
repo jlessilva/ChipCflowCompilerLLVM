@@ -1,0 +1,3 @@
+decider x1,x2,x3; 
+foricexx x1,x2,x3,x4,x5; 
+add x1,x2,x3; 

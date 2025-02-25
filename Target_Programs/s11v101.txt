@@ -1,0 +1,16 @@
+constd i1,s2;
+constd n1,s4;
+constd y,s8;
+copyd s8,s10,s11;
+constd q,s13;
+constd t,s17;
+constd x,s21;
+constd G,s27;
+constc B,s29;
+copyc s29,s31,s32;
+foricexx s4,s2,s35,i,s31,s32;
+dmerged s25,s27,s35,r;
+mul s10,s13,s15;
+mul s15,s17,s19;
+add s21,s19,s23;
+div s23,s11,s25;

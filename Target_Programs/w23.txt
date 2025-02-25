@@ -1,0 +1,3 @@
+if(x<y)
+   for(i=0;i<n;i++)
+       {z=x+y; r=x-y;}

@@ -1,0 +1,9 @@
+constd i,s2;
+constd n,s4;
+constd x,s6;
+constd y,s8;
+constc $,s14;
+constd @,s16;
+foricexx s2,s4,s19,s20,s14;
+dmerged s16,s10,s19,r;
+add s6,s8,s10;

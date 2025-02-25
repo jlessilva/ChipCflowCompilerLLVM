@@ -1,0 +1,63 @@
+1- p3 - if(x<y)z=x+y;
+2- p5 - if(x<y)z=x+y;else z=x*y;
+3- p7 - if(x<y)r={x*(y+x*z)+[(x*y+z)+y]*z};
+4- p9 - if(x<y)r=x+y*q*t;
+5- p11 - if(x<y)r=(x+y*q*t)/y;
+6- p13 - if(x<y)r=(x+y)+(q-t)+y;
+7- p15 - if(x<y)r={x+[x*(q+t)]}-x+y;
+8- p19 - if(x<y)r=x+y*q*t;else r=x+y*q*t;
+9- p21 - if(x<y)r=x+y*q*t;else s=x+y*q*t;
+10- p23 - if(x<y)r={x+[x*(q+t)]};else r={x+[x*(q+t)]};
+11- f3 - if(x<y) if(i<j) z=x+y+i-j;
+12- f5 - if(x<y)if(i<j)if(k<t)z=x+y+i+j+k+t;
+13- f7 - if(x<y)
+   	if(i<j)
+     	  if(k<t) z=x+y+i+j+k+t;
+14- f9 - if(x<y)
+   	if(i<j) z=i+j;
+   	else z=x+y;
+15- f11 - if(x<y)
+   	if(i<j) z=i+j;
+   	else z=x+y;
+      else z=i+x;
+16- f13 - if(i<j){z=i+j; r=i-j;}
+17- f15 - if(i<j){z=i+j; r=i-j; w=i*j;}
+18- f31 - if(x<y)z=i*j;
+19- f17 - if(x<y)z=i+j; else r=i*j;
+20- s3 - for(i=0;i<n;i++) r=x+y;
+21- s7 - for(i=0;i<n;i++)
+    	r={x*(y+x*z)+[(x*y+z)+y]*z};
+22- s9 - for(i=0;i<n;i++)r=x+y*q*t;
+23- s11 - for(i=0;i<n;i++)r=(x+y*q*t)/y;
+24- s13 - for(i=0;i<n;i++)r=(x+y)+(q-t)+y;
+25- s15 - for(i=0;i<n;i++)r={x+[x*(q+t)]}-x+y;
+26- s17 - for(i=0;i<n;i++)r=x+i+i;
+27- s19 - for(i=0;i<n;i++)r={x*(y+i*z)+[(x*i+z)+y]*i};
+28- s21 - for(i=0;i<n;i++){z=i*j;r=i+j;}
+ 29- w3 - for(i=0;i<n;i++)
+  	for(j=0;j<n;j++)
+    		z=x*y;
+30- w5 - for(i=0;i<n;i++)for(j=0;j<n;j++)for(k=0;k<n;k++)z=x+y;
+31- w7 - for(i=0;i<n;i++) z=i+x;
+32- w9 - for(i=0;i<n;i++)
+  	for(j=0;j<n;j++)
+		z=i+j;
+33- w11 - for(i=0;i<n;i++)
+  	for(j=0;j<n;j++)
+    	   for(k=0;k<n;k++)
+	 	z=i+j+k;
+34- w13 - if(x<y)
+    	for(i=0;i<n;i++)
+	    z=x+y;
+35- w15 - for(i=0;i<n;i++)
+   	if(x<y) z=x+y;
+36- w17 - for(i=0;i<n;i++)
+	   if(x<y) z=x+y; else z=x-y;
+37- w21 - for(i=0;i<n;i++)
+   	if(x<y) {z=x+y; r=x-y;}
+38- w23 - if(x<y)
+   	for(i=0;i<n;i++)
+       	    {z=x+y; r=x-y;}
+
+     
+

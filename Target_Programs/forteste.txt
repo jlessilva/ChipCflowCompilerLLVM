@@ -1,0 +1,14 @@
+int main()
+{
+
+int z;
+int i;
+int n;
+n=4;
+z=0;
+for(i=0;i<n;i++)
+{
+   z=z+i;
+   cout <<"Valor de Z=" << z << endl;
+}
+}

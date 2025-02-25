@@ -1,0 +1,1 @@
+if(x<y)r=x+y*q*t;else r=x+y*q*t;

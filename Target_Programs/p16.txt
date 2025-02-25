@@ -1,0 +1,16 @@
+constd x,s2;
+copyd s2,s4,s5;
+copyd s4,s7,s8;
+copyd s7,s10,s11;
+constd y,s13;
+copyd s13,s15,s16;
+constd q,s18;
+constd t,s20;
+constd &,s34;
+decider s11,s16,s37;
+dmerged s30,s34,s37,r;
+add s18,s20,s22;
+add s5,s15,s24;
+mul s8,s22,s26;
+add s10,s26,s28;
+sub s28,s24,s30;

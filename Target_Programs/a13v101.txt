@@ -1,0 +1,13 @@
+constd i1,s7;
+constd n1,s9;
+copyd s9,s11,s12;
+constd G,s20;
+constc B,s22;
+copyc s22,s24,s25;
+constd Z,s27;
+copyd s27,s29,s30;
+foricexx s11,s7,s33,s18,s24,s25;
+dmerged s51,s20,s33,r;
+acc s58,s51;
+dualload s29,s30,s18,s12,s56,s63,s58;
+dualsram0 s56,s60,s61,s62,s63,s64;
